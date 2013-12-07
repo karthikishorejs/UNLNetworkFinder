@@ -1,0 +1,275 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+	<TableLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*">
+
+
+                        <!-- Row 1 with single column -->
+                        <TableRow
+                            android:id="@+id/wifi_information"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:gravity="center_horizontal">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18dp"
+                                android:text="Wi-Fi Information"
+                                android:gravity="center"
+                                android:layout_span="2"
+                                android:padding="18dip"
+                                android:background="#b0b0b0"
+                                android:textColor="#000"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/macaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                      
+                      
+
+                            <TextView
+                                android:id="@+id/mac_address"
+                                android:text="MAC Address"
+                                android:layout_weight="0"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/mac_address_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                     </TableRow>
+
+                   
+
+                    <TableRow
+                        android:id="@+id/ipaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/ip_address"
+                                android:text="IP Address"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/ip_address_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/SSID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/SS_ID"
+                                android:text="SSID"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/SS_ID_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/BSSID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/BSS_ID"
+                                android:text="BSSID"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/BSS_ID_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/NetworkConnected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+							
+                        	<TextView
+                                android:id="@+id/Network_Connected"
+                                android:text="Network Connected"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/Network_Connected_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                        
+                      
+                    </TableRow>
+                    
+                    <!-- Row 1 with single column -->
+                        <TableRow
+                            android:id="@+id/connection_information"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:gravity="center_horizontal">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18dp"
+                                android:text="Connection Information"
+                                android:gravity="center"
+                                android:layout_span="2"
+                                android:padding="18dip"
+                                android:background="#b0b0b0"
+                                android:textColor="#000"/>
+
+                    </TableRow>
+                    
+                    <TableRow
+                        android:id="@+id/subnetmask"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                      
+                      
+
+                            <TextView
+                                android:id="@+id/subnet_mask"
+                                android:text="SubNet Mask"
+                                android:layout_weight="0"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/subnet_mask_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"
+                                />
+                      
+                     </TableRow>
+
+                   
+
+                    <TableRow
+                        android:id="@+id/defaultgateway"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/default_gateway"
+                                android:text="Default Gateway"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/default_gateway_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/DNSServer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/dns_server1"
+                                android:text="DNS Server1"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/dns_server1_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/DNSServer2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/dns_server2"
+                                android:text="DNSServer2"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/dns_server2_info"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                    
+                        
+                  
+		</TableLayout>
+</ScrollView>

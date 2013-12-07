@@ -1,0 +1,148 @@
+
+<TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*">
+
+
+                        <!-- Row 1 with single column -->
+                        <TableRow
+                            android:id="@+id/location_information"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:gravity="center_horizontal">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18dp"
+                                android:text="Location Information"
+                                android:gravity="center"
+                                android:layout_span="2"
+                                android:padding="18dip"
+                                android:background="#b0b0b0"
+                                android:textColor="#000"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/location_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                      
+                      
+
+                            <TextView
+                                android:id="@+id/LocationName"
+                                android:text="Location Name"
+                                android:layout_weight="0"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/locationname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="10" >
+
+                                <requestFocus />
+                            </EditText>
+                      
+                     </TableRow>
+
+                   
+
+                    <TableRow
+                        android:id="@+id/latitude_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/latitude"
+                                android:text="Latitude"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/latitudeinfo"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/longitude_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/longitide"
+                                android:text="Longitude"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/longitudeinfo"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                  
+                    <TableRow
+                        android:id="@+id/signalstrength_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                          
+                            <TextView
+                                android:id="@+id/signalstrength"
+                                android:text="Signal Strength"
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/signalstrengthinfo"
+                                android:text=""
+                                android:layout_weight="1"
+                                android:textColor="#000000"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                      
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/ipaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btnShowLocation"
+                            android:text="Retrieve GPS coordinates"
+                            android:padding="20dip"
+                            android:gravity="center"
+                             />
+                       
+                        <Button
+                            android:id="@+id/btnAddLocation"
+                            android:text="Add Location"
+                            android:padding="20dip"
+                            android:gravity="center"
+                             />
+                      
+                    </TableRow>
+                  
+</TableLayout>

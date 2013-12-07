@@ -1,0 +1,143 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <!-- Row 1 with single column -->
+
+    <TableRow
+        android:id="@+id/battery_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#b0b0b0"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Battery Information"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/batterylevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/battery_level"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Battery Level"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/battery_level_info"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Technology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/technology"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Technology"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/technology_info"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Plugged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/plugged"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Plugged"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/plugged_info"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Status"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/status_info"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Temperature"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/temperature_info"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        
+        style="@style/progressStyle"
+         />
+
+</TableLayout>
